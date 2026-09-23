@@ -1,16 +1,19 @@
 @echo off
 setlocal
 
+set /p "NAMEEntered=Enter add-in name: "
+
+
 echo.
 echo ========================================
-echo   Building dll
+echo   Building Inventor 2027 Add-in
 echo ========================================
 echo.
 
 if exist output rmdir /s /q output
 mkdir output
 
-dotnet\dotnet.exe build MyAddin.csproj -c Release
+dotnet\dotnet.exe build ProjectFile.csproj -c Release /p:NAMEEnteredPassed="%NAMEEntered%"
 
 if errorlevel 1 (
     echo.
@@ -21,7 +24,7 @@ if errorlevel 1 (
     exit /b 1
 )
 
-copy /Y "bin\Release\net10.0-windows\MyAddin.dll" "output\MyAddin.dll" >nul
+copy /Y "bin\Release\net10.0-windows\%NAMEEntered%.dll" "output\%NAMEEntered%.dll" >nul
 
 echo.
 echo ========================================
@@ -29,7 +32,10 @@ echo   BUILD SUCCESSFUL
 echo ========================================
 echo.
 echo DLL:
-echo   output\MyAddin.dll
+echo   output\%NAMEEntered%.dll
 echo.
 
 pause
+
+
+@REM  asdf
