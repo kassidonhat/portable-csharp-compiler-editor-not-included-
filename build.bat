@@ -10,8 +10,9 @@ echo   Building Inventor 2027 Add-in
 echo ========================================
 echo.
 
-if exist output rmdir /s /q output
-mkdir output
+
+if not exist "output" mkdir "output"
+
 
 dotnet\dotnet.exe build ProjectFile.csproj -c Release /p:NAMEEnteredPassed="%NAMEEntered%"
 
