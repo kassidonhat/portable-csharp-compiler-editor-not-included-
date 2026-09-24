@@ -10,3 +10,5 @@ obj/Debug/net10.0-windows/ProjectFile.AssemblyInfoInputs.cache
 obj/Debug/net10.0-windows/ProjectFile.assets.cache
 obj/Debug/net10.0-windows/ProjectFile.GeneratedMSBuildEditorConfig.editorconfig
 obj/Debug/net10.0-windows/ProjectFile.GlobalUsings.g.cs
+obj/Debug/net10.0-windows/MyAddin.GlobalUsings.g.cs
+obj/Debug/net10.0-windows/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
