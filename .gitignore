@@ -1,0 +1,12 @@
+obj/MyAddin.csproj.nuget.dgspec.json
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net10.0-windows/MyAddin.AssemblyInfo.cs
+obj/Debug/net10.0-windows/MyAddin.AssemblyInfoInputs.cache
+obj/Debug/net10.0-windows/MyAddin.assets.cache
+obj/Debug/net10.0-windows/MyAddin.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net10.0-windows/ProjectFile.AssemblyInfo.cs
+obj/Debug/net10.0-windows/ProjectFile.AssemblyInfoInputs.cache
+obj/Debug/net10.0-windows/ProjectFile.assets.cache
+obj/Debug/net10.0-windows/ProjectFile.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net10.0-windows/ProjectFile.GlobalUsings.g.cs
