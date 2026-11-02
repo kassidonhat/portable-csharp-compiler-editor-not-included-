@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+
+
+    <AssemblyName>Debug</AssemblyName>
+    <RootNamespace>Debug</RootNamespace>
+
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ProjectDirForCode>$(MSBuildProjectDirectory)</ProjectDirForCode>
+
+    
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.Inventor.Interop">
+      <HintPath>lib\Autodesk.Inventor.Interop.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="4.1.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="5.9.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Scripting" Version="5.9.0" /> -->
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.13" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.13" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.13" />
+  </ItemGroup>
+
+
+
+
+
+
+
+
+</Project>
+
+
+
+
+
